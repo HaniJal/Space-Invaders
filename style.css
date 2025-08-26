@@ -1,0 +1,36 @@
+/*
+Haniyeh J
+*/
+body {
+  background: rgb(90, 90, 90);
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+header { color: white; }
+h1 {
+  font-family: 'Press Start 2P', monospace;
+  border-bottom: 2px solid black;
+}
+#difficultySelect {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+}
+svg {
+  display: block;
+  margin: 0 auto;
+  background: #000;
+  border: 2px solid white;
+  justify-content: center;
+}
+.enemy-bullet { fill: red; }
+
+.column{
+  border: 2px solid white;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 11px;
+}
+.hidden-button { display: none; }
+
+/* Classic arcade-green bunkers */
+.barrier-block { fill: #39ff14; }
